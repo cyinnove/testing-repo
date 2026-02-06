@@ -3,8 +3,8 @@ import requests
 import os
 
 # --- BEST PRACTICE: Load sensitive credentials from environment variables ---
-API_KEY = ghp_t19hpRjZKRciJ0sFxsnKyaRx4ss4rU3etkaa
-API_SECRET = secret_xasdkaskldjskldjaskljasdas_generic
+API_KEY = <redacted>
+API_SECRET = <redacted>
 
 if not API_KEY or not API_SECRET:
     raise ValueError("API credentials not set in environment variables!")
