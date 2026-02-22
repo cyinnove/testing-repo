@@ -1,2 +1,3 @@
 xxxx
-.get('/api/users')
+.delete('/api/userz')
+.get('/api/users/111')
